@@ -1,255 +1,40 @@
-
 <!DOCTYPE html>
-
-<html lang="en">
-
+<!-- taken there : https://github.com/topepo/topepo.github.io/blob/master/index.html --><html>
 <head>
-
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-146345113-1"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'UA-146345113-1');
-  </script>
-
-
-  <meta charset="utf-8">
-  <title>Test - Webpage</title>
-  <meta name="description" content="Personal webpage of Test.">
-  <meta name="author" content="Test">
-  <meta name="keywords" content="T., Test,  à décrir ici ses compétences">
-
-
-  <meta property="og:url" content="http://Dilayedi.github.io">
-  <meta property="og:title" content="Test's webpage">
-  <meta property="og:type" content="profile">
-  <meta property="og:description" content="Test's personal webpage, Data Science, Statistics, Machine Learning, Deep Learning, Simulation, Optimization.">
-
-  <!-- Mobile Specific Metas
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <!-- CSS
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/skeleton.css">
-  <link rel="stylesheet" href="css/main.css">
-
-  <!-- Favicon
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="icon" type="image/png" href="images/AND-logo.png">
-
-  <!-- FONT
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet" type="text/css">
-
-  <!-- URL
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="canonical" href="https://Dilayedi.github.io/blog/">
-  <link rel="canonical" href="https://Dilayedi.github.io/software/">
-
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Oskar Laverny's github sites</title>
+<!-- jquery --><script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha384-nrOSfDHtoPMzJHjVTdCopGqIqeYETSXhZDFyniQ8ZHcVy08QesyHcnOUpMpqnmWq" crossorigin="anonymous"></script><!-- Bootstrap --><link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/united/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script><!-- Font Awesome icons --><link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
+<!-- clipboard.js --><script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/1.7.1/clipboard.min.js" integrity="sha384-cV+rhyOuRHc9Ub/91rihWcGmMmCXDeksTtCihMupQHSsi8GIIRDG0ThDc3HGQFJ3" crossorigin="anonymous"></script><!-- pkgdown --><link href="pkgdown.css" rel="stylesheet">
+<script src="jquery.sticky-kit.min.js"></script><script src="pkgdown.js"></script><link href="extra.css" rel="stylesheet">
+<meta property="og:title" content="github.io">
+<meta name="twitter:card" content="summary">
+<!-- mathjax --><script src="https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script><!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+<![endif]-->
 </head>
-
 <body>
+<div class="container template-article">
+<div class="row">
+<div class="col-md-9 contents">
+    
+<br>
+<br>
 
-  <!-- header section (with links) -->
-    <div class="container">
-      <div class="row nav">
-        <div class="eleven columns" id="top">
-          <ul>
-            <!--li><a href="blog/">Blog</a></li-->
-            <li><a href="#Recherches" onclick="scrollViewAbout();return false;">Recherches</a></li>
-            <li><a href="#Enseignements" onclick="scrollViewAbout();return false;">Enseignements</a></li>
-            <!--li><a href="#aboutme" onclick="scrollViewAbout();return false;">Contact</a></li-->
-            <!--li><a href="cv/CV_MC_DIEYE.pdf">CV</a></li>-->
-          </ul>
-        </div>
-      </div>
-    </div>
+<h3>
+  <a href="https://www.actuarial.science"><tt>Oskar Laverny</tt></a>'s github.io sites:
+</h3>
 
-
-    <!-- header section (Social)
-    <div class="container">
-      <div class="row soc">
-        <div class="eleven columns"> 
-          <ul>
-            <li><a href="https://github.com/Dilayedi/"><img src="images/github.svg" alt="github"></a></li>
-            <li><a href="https://www.linkedin.com/in/"><img src="images/linkedin.svg" alt="linkedin"></a></li>
-            <li><a href="https://twitter.com/"><img src="images/twitter-logo.png" alt="twitter"></a></li>
-          </ul>
-        </div>
-      </div>
-    </div>  -->
-
-    <!-- Primary Page Layout
-    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-    <div class="container">
-
-      <div class="six columns hero-text">
-
-        <div class="wrapper">
-        <h1> <b> Abdoulaye Ndiaye DIEYE</b></h1>
-          <h2>PhD, Actuaire, Data Analyste</h2>
-
-          <h3><a href="cv/CV_MC_DIEYE.pdf"> CV</a>
-            <a href="#Contact" onclick="scrollViewAbout();return false;">Contact</a>
-            <!--a href="#aboutme" onclick="scrollViewAbout();return false;">Détails</a>-->
-          </h3>
-        </div>
-        
-      </div>
-        
-      <div class="row hero">
-        <div class="six columns hero-profile">
-          <div class="twelve columns">
-          
-            <h2>Expertises - Conseils <a href="#top"></a> </h2>
+<ul>
+ <li> <a href="https://lrnv.github.io/cort">            <tt>cort</tt> </a> </li>
+ <li> <a href="https://lrnv.github.io/ThorinDistributions.jl/dev/">            <tt>ThorinDistributions.jl</tt> </a> </li>
+</ul>
   
-            <h5> Actuariat, Finance, Data Science, Statistics/Machine Learning, Simulation</h5>
-            </div>
-          <!--img src="images/AND-logo.png" />
-          <div class="social"> 
-            <a href="https://github.com/Dilayedi/"><img src="images/github.svg" alt="github"></a>
-            <a href="https://www.linkedin.com/in/"><img src="images/linkedin.svg" alt="linkedin"></a>
-            <a href="https://twitter.com/"><img src="images/twitter-logo.png" alt="twitter"></a> 
-          </div>-->
-         </div>
-        <div class="four columns hero-profile">
-          <img src="images/AND-logo.png" />
-         <!--div class="social"> 
-            <a href="https://github.com/Dilayedi/"><img src="images/github.svg" alt="github"></a>
-            <a href="https://www.linkedin.com/in/"><img src="images/linkedin.svg" alt="linkedin"></a>
-            <a href="https://twitter.com/"><img src="images/twitter-logo.png" alt="twitter"></a> 
-          </div-->
-        </div>
-    </div>
-  </div>        
-      
-    
-    
-        
-      
-       
-   
-          
-
-              <!--div>
-   			      	<a href="#aboutme" onclick="scrollViewAbout();return false;">Détails</a>
-   			      </div>-->
-
-             
-  <!-- About Me section / Contact section  -->
-
-    <div class="container" id="aboutme">
-     
-
-        
-      <div class="row contact-title">
-        <div class="ten columns">
-          
-          <h2>Recherches| <a href="#top" onclick="scrollViewTop();return false;">Retour</a> </h2>
-
-
-          <p>
-    
-              Actuariat, Finance, Machine Learning 
-          </p>
-          <p>  
-            Modélisation: R, Python, Java, C++, Scala, Matlab, Sas.
-            <!---- For some of the other things that I created,
-            visit <a href="/software">this page</a-->
-        </p>
-          <p>  
-              Developppement: HTML, Javascript, Ruby and Jekyll.
-              <!---- For some of the other things that I created,
-              visit <a href="/software">this page</a-->
-          </p>  
-          
-          <p>
-            <a href="Recherches/Recherches.html">Working Papers</a>
-        	</p>
-
-          <p>
-            <a href="Recherches/Recherches.html">Publications</a>
-        	</p>
-          <p>
-          Coup d'oeil sur <a href="https://github.com/Dilayedi/"><img src="images/github.svg" alt="github"></a>.
-         </p>
-
-          <h2>Enseignements| <a href="#top" onclick="scrollViewTop();return false;">Retour</a> </h2>   
-          
-          <p>
-            Mes cours <a href="Enseignements/soon.html">Enseignements</a>
-        	</p>
-
-          <h2>Contact| <a href="#top" onclick="scrollViewTop();return false;">Retour</a> </h2>   
-          
-          <p>
-           Pour  me contacter
-            <a href="#contact" onclick="scrollViewContact();return false;">dieyelay@gmail.com</a>
-            <a href="https://www.linkedin.com/in/"><img src="images/linkedin.svg" alt="linkedin"></a>
-              <a href="https://twitter.com/"><img src="images/twitter-logo.png" alt="twitter"></a> 
-            <!--b>mail de contact</b-->
-        	</p>
-          <!--div class="four columns hero-profile">
-           <div class="social"> 
-              <!--a href="https://github.com/Dilayedi/"><img src="images/github.svg" alt="github"></a>
-              <a href="https://www.linkedin.com/in/"><img src="images/linkedin.svg" alt="linkedin"></a>
-              <a href="https://twitter.com/"><img src="images/twitter-logo.png" alt="twitter"></a> 
-            <!--/div>
-          </div>
-
-        	</div-->
-      </div>
-    </div>
-
-
-  <!-- Contact section 
-
-    <div class="container" id="contact">
-      <div class="row contact-title">
-        <div class="twelve columns">
-
-          <h2>Expertises - Conseils ! | <a href="#top" onclick="scrollViewTop();return false;">Back</a> </h2>
-
-          <p> Conseils en Statistics/Machine Learning, computer simulation and numerical optimization? Email me at: </p>
-
-          <p>
-            <b>mail de contact</b>
-        	</p>
-
-        </div>
-      </div>
-    </div> -->
-
-
-    <script type="text/javascript">
-
-      function scrollViewTop(){
-        document.querySelector('#top').scrollIntoView({
-          behavior: 'smooth'
-        });
-      }
-
-      function scrollViewAbout(){
-        document.querySelector('#aboutme').scrollIntoView({
-          behavior: 'smooth'
-        });
-      }
-
-      function scrollViewContact(){
-        document.querySelector('#contact').scrollIntoView({
-          behavior: 'smooth'
-        });
-      }
-
-    </script>
-
-<!-- End Document
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+</div>
+</div>
 </body>
-
 </html>

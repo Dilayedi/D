@@ -129,6 +129,7 @@ thead, tfoot, tr:nth-child(even) { background: none; }
   background-position: 83% 5%, 95% 3.5%;
   background-size: 100px, 100px;
   background-color: #fff; 
+  /*background-color: #fff; */
 }
 
 /* H1 fonts */
@@ -213,7 +214,7 @@ thead, tfoot, tr:nth-child(even) { background: none; }
 
 .title-slide-final {
   background-color: #AAA59F;
-  color: #fff;
+  color: rgb(255, 255, 255);
   padding-left: 100px;
 /*  text-shadow: 0 0 3px #333; */
   text-align: center;
@@ -291,7 +292,7 @@ body {
 }
 
 .remark-slide-content h1 {
-  color: rgb(0, 41, 96);
+  color: rgb(137, 233, 27);
   font-weight: bold;
   font-size: 200%;
   font-family: 'Oswald', sans-serif;
@@ -299,7 +300,7 @@ body {
 }
 
 .remark-slide-content h2 {
-  color: rgb(0, 41, 96, .75);
+  color: rgba(59, 221, 19, 0.75);
   font-weight: regular;
   font-size: 150%;
   font-family: 'Oswald', sans-serif;
